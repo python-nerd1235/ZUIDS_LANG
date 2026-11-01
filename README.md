@@ -6,29 +6,29 @@ In a ZISC, the code can not change. You set the data. In ZUIDS_LANG, you set the
 
 If you ran offset 4,
 this:
-list : [0,1,2..., 254, 255]
-index:  0 1 2...  254  255
+      list : [0,1,2..., 254, 255]
+      index:  0 1 2...  254  255
 
-      |
-      V
+            |
+            V
 
-list : [0,1,2..., 254, 255]
-index:255 0 1...  253  254
+      list : [0,1,2..., 254, 255]
+      index:255 0 1...  253  254
 is now this!
 
 # commads
 
-offset <x>
+      offset x
 
-  set the offset to <x>
+        set the offset to x
 
-ExpOffset <x>
+      ExpOffset x
 
-  Evaluate <x> and that is the new offset
+        Evaluate x and that is the new offset
 
-if <x>
+      if x
 
-  if <x>, go back 5 lines
+        if x, go back 5 lines
 
 !NOP
 
