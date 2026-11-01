@@ -31,23 +31,23 @@ is now this!
 
         if x, go back 5 lines
 
-!NOP
+      !NOP
 
-  NO OP
+        NO OP
 
 # "_" staments
 
-_OFF
+      _OFF
 
-  Returns the current offset
+        Returns the current offset
 
-_IN
+      _IN
 
-  Returns user input
+        Returns user input
 
-_OFFDAT
+      _OFFDAT
 
-  Returns the data at the current offset
+        Returns the data at the current offset
 
 
 HAVE FUN! 
