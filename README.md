@@ -6,6 +6,7 @@ In a ZISC, the code can not change. You set the data. In ZUIDS_LANG, you set the
 
 If you ran offset 4,
 this:
+      
       list : [0,1,2..., 254, 255]
       index:  0 1 2...  254  255
 
